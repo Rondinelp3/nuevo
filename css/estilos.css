@@ -33,7 +33,7 @@ header .contenedor{
     z-index: 100;  
 }
 .colorPrimario{
-     background: rgba(84, 242, 234);
+     background: rgba(rgba 138,221,45,0);
 }
 .icon-menu {
     display: block;
@@ -303,7 +303,8 @@ h2,h3{
     top: 40%;
     }
     .banner__titulo{
-    font-size:100px; 
+    font-size:69px; 
+       
     }
     .banner__texto{
     font-size: 70px;      
@@ -319,5 +320,5 @@ h2,h3{
 
 
 .contenedor_segundo{
-    background: black;
+    background: rgba(84, 242, 234);
 }
