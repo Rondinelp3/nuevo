@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+
 *{
     box-sizing:border-box;
     margin: 0;
@@ -7,7 +9,8 @@
 }
 
 body{
-    font-family: 'Sigmar One', cursive;
+   font-family: 'Montserrat', sans-serif;
+
 
     
 }
@@ -114,6 +117,9 @@ header .contenedor{
 
     width: 100%
   
+}
+h2,h3{
+    font-family: 'Sigmar One', cursive;
 }
 /*--estilos de cursos*/
 
