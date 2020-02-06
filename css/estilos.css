@@ -16,7 +16,7 @@ body{
 }
 .contenedor{
     margin: auto;
-        width: 98%    
+     width: 98%    
 }
 /*Estilos del header*/
 
@@ -27,7 +27,13 @@ header{
 header .contenedor{
     display: flex;
     justify-content: space-between;
-    
+    position:fixed ;
+    width: 100%;
+    height: 60px;
+    z-index: 100;  
+}
+.colorPrimario{
+     background: rgba(84, 242, 234);
 }
 .icon-menu {
     display: block;
@@ -55,7 +61,7 @@ header .contenedor{
 
 .nav {
     position: absolute;
-    top: 70px;
+    top: 60px;
     width: 100%;
     left: -100%;
     
@@ -171,6 +177,13 @@ h2,h3{
 
 /*--estilos responsiver*/
 @media(min-width:680px){
+    header .contenedor{      
+    height: 80px;
+    }
+    .nav{
+        top: 80px; 
+    }
+    
     .logo{
         width:120px ;
         height:80px ;
@@ -221,9 +234,14 @@ h2,h3{
         width: 950px;
     }
     .nav{
-        position: static;
-        width: auto;
+        position:static;;
+        width: auto;  
+       
     }
+    .menu__link{
+        padding:  25px ;
+    }
+    
     .icon-menu{
         display: none
     }
@@ -232,7 +250,7 @@ h2,h3{
     }
     .menu__link{
         background: none;
-        font-size: 20px;
+        font-size: 25px;
     }
     .select{
         background: white;
@@ -270,9 +288,16 @@ h2,h3{
     .contenedor{
     width: 1700px;
     }
+     header .contenedor {
+       height: 90px
+    }
+    .menu__link{
+        padding:  30px  ;
+        
+    }
     .logo{
-        width:240px ;
-        height:180px
+        width:160px ;
+        height:100px
     }
     .banner .contenedor{
     top: 40%;
@@ -287,3 +312,12 @@ h2,h3{
         margin-top: -300px;
     }    
     }   
+
+
+
+
+
+
+.contenedor_segundo{
+    background: black;
+}
